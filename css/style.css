@@ -1,0 +1,255 @@
+
+
+/* меню  */
+
+/* загальні стилі */  
+
+
+body{
+    font-family : Arial, sans-serif ;
+     font-size: 100% ;
+}
+ul {
+     margin: 0 ;
+     padding: 0 ;
+}
+ul li {
+   list-style-type: none ;  
+}
+a {
+    text-decoration: none ;   /* кнопки без підкреслювання */
+}
+
+/* . */
+
+
+.container {
+    margin: 0 auto ;
+    width: 960px ;
+}
+.header {
+     padding: 5px 0 ;
+     background-color: rgb(219, 32, 32) ;
+     height: 170px ;
+}    
+.dr{
+     margin: 25px ; 
+     padding-right: -70px;
+}
+.header h1 {
+     text-align: center;
+     margin: -50px ;
+}
+.vyl{
+     text-align: right ;
+     padding-right: 70px;
+     size: 20px ;
+     font-weight: bold ;
+     font-family: cursive;
+     color: rgb(44, 44, 44) ;
+     margin-top: 5px;
+}
+.sak{
+    margin-left: -3px ;
+    margin-top: -200px ; 
+}
+.header h2 {
+     color : rgb(44, 44, 44) ;
+     text-align: center ;
+     margin: -100px ;
+     font-family: cursive; 
+}
+
+
+/* кнопки  */
+
+
+.page-navigation{
+    background-color: rgb(36, 36, 36);
+    border-color: rgb(0, 0, 0) ;
+    min-height:  64px ;
+}
+
+.page-navigation li {
+     float: left ;
+     width: 100px ;
+}
+.page-navigation  a {
+     display: block ;
+     color:rgb(219, 32, 32) ;
+     line-height: 4em ;
+     font-weight: bold ;
+     text-align: center;
+     font-family: cursive; 
+}
+.page-navigation li a:hover {
+     color: rgb(255, 255, 255);
+     background-color : black ;
+}
+
+
+/* . */
+
+
+.line{
+     margin-left: 70px; 
+}
+.containers {
+     overflow: auto ;
+}
+.menu {
+   font-size: 36px ;
+   text-align: center ;
+   font-weight: bold ;
+   font-family: cursive; 
+}  
+.button input[type="submit"]{
+   padding: 5px 15px ;
+   border: 1px solid lightgray;
+   border-radius: 5px ;
+   display: block ;
+   margin-left: auto ;
+   margin-right: auto ;
+   margin-bottom: 10px ;
+   font-family: cursive ;
+}
+.button input[type="submit"]:hover{
+     background-color: darkgrey ; 
+     color: white ; 
+  }
+  .buttonone input[type="submit"]{
+     padding: 5px 15px ;
+     border: 1px solid lightgray;
+     border-radius: 5px ;
+     display: block ;
+     margin-left: 100px ;
+     margin-bottom: 10px ;
+     font-size: 50px ;
+  }
+  .buttonone input[type="submit"]:hover{
+       background-color: darkgrey ; 
+       color: white ; 
+    }
+    .contrec{
+     position: relative;
+     width: 48%;
+    }
+    .contrec .buttonone {
+     position: absolute;
+     left: 25% ;
+     margin-top: 60% ;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     color: white;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     font-family: cursive ;
+   }
+  /* . */
+
+.recl{
+   margin-left: 70px ;
+}
+.ram {
+     font-weight: bold ;
+     text-align: left;
+     font-family: cursive; 
+     margin-left: 15px ;
+     color: white ;
+} 
+.contram{
+     background-color: rgb(219, 32, 32); 
+     margin-left: 70px ; 
+     margin-right: 1350px ; 
+     border-radius: 5px ;
+}
+.contwok{
+     background-color: rgb(219, 32, 32); 
+     margin-left: 70px ; 
+     margin-right: 1320px ; 
+     border-radius: 5px ;
+}
+.place { 
+  display: inline-block ;
+  float: left ;
+  padding-left: 0px ;
+  padding-right: 5px ;
+  width: 33,33% ;
+  box-sizing: border-box ;
+} 
+.cube {
+     border: 1px solid #959595 ;
+}
+.info h3 {
+    color: rgb(37, 37, 37);
+    font-family: cursive ; 
+    text-align: center ;
+}
+.info p {
+     font-family: cursive ; 
+     text-align: center ;
+     color: rgb(52, 78, 0);
+     padding-left: 2px ;
+     padding-right:2px ;
+}
+.info h4 {
+     color: rgb(201, 30, 0);
+     font-family: cursive ; 
+     text-align: center ;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.footer{
+     background-color: rgb(36, 36, 36);
+     border-color: rgb(0, 0, 0) ;
+     min-height:  64px ;
+     color: white ;
+     padding: 20px 0 ;
+     margin-top: 30px ;
+}
+.text{
+     font-family: cursive; 
+     color:  rgb(219, 32, 32);  
+}
+.int{
+     text-align: right ;
+     padding-right: 70px;
+}
+.int li a:hover {
+     color: rgb(255, 255, 255);
+}
+.shadow {
+     box-shadow:  0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    }
+/* про нас  */
+
+
+.pro{
+     font-family: cursive ; 
+     text-align: center ;
+}
+.one {
+     font-family: cursive ;
+     margin-left: 200px ;
+     font-size: 22px ; 
+     font-weight: bold ;
+}
+.two {
+     font-family: cursive ;
+     font-size: 20px ;  
+     margin-left: 100px ;
+}
+.end {
+     font-family: cursive ;
+     text-align: center ;
+}
+.color{
+     color: rgb(168, 25, 0) ;
+}
+
+
